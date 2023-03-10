@@ -57,3 +57,25 @@ nav > ul > li > a:hover {
     font-size: 50px;
     font-weight: 700;
 }
+
+.primary > .btn {
+    border-radius: 30px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.primary > .btn:hover {
+    background-color: #429945;
+}
+
+.primary > .btn:focus {
+    outline-color: #4caf50;
+    outline-style: solid;
+    outline-offset: 4px;
+}

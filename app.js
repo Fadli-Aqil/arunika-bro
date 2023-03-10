@@ -1,3 +1,5 @@
 const info = (x) => {
-    alert(x);
+    let y = x * 5;
+    let z = y * x;
+    alert(z);
 }
